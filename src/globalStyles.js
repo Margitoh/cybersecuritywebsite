@@ -28,6 +28,7 @@ export const MainHeading = styled.h1`
   width: 100%;
   letter-spacing: 4px;
   text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 `;
 
 export const Heading = styled.h2`
@@ -107,7 +108,7 @@ export const Column = styled.div`
 export const Button = styled.button`
   border-radius: 4px;
   background: none;
-  white-spacing: nowrap;
+  white-space: nowrap;
   padding: 10px 20px;
   font-size: 16px;
   color: #fff;
@@ -123,11 +124,11 @@ export const Button = styled.button`
     position: absolute;
     top: 50%;
     left: 50%;
-    transfrom: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     z-index: -1;
-    transition: all 0.5s ease;
-    width: 0;
-    height: 0;
+    transition: all 0.6s ease;
+    width: 100%;
+    height: 0%;
     transform: translate(-50%, -50%) rotate(45deg);
   }
 
