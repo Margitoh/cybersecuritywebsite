@@ -32,7 +32,7 @@ export const MainHeading = styled.h1`
 `;
 
 export const Heading = styled.h2`
-  fonz-size: clamp(1.3rem, 13vw, 3.1rem);
+  font-size: clamp(1.3rem, 13vw, 3.1rem);
   margin: ${({ margin }) => (margin ? margin : "")};
   margin-bottom: ${({ mb }) => (mb ? mb : "")};
   margin-top: ${({ mt }) => (mt ? mt : "")};
