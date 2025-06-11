@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# CyberSecure Website
+
+CyberSecure is a lightweight demo website built with React and styled-components.
+It showcases a simple landing page, pricing section and contact page. The hero
+image is loaded from Unsplash to keep the repository free of large binaries.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

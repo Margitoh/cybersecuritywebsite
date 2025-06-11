@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button, Container, MainHeading } from "../../globalStyles";
 import {
-  HeroVideo,
+  HeroImage,
   HeroSection,
   HeroText,
   ButtonWrapper,
@@ -12,18 +12,20 @@ import {
 const Hero = () => {
   return (
     <HeroSection>
-      <HeroVideo src="./assets/hero2.mp4" autoPlay loop muted />
+      <HeroImage
+        src="https://images.unsplash.com/photo-1556742031-c6961e8560b0?auto=format&fit=crop&w=1350&q=80"
+        alt="cyber security"
+      />
       <Container>
-        <MainHeading>Your data isn't secure with us</MainHeading>
+        <MainHeading>Your data is safe with us</MainHeading>
         <HeroText>
-          We DO NOT provide the best security systems for clients all over the
-          world
+          We provide the best security systems for clients all over the world
         </HeroText>
         <ButtonWrapper>
-          <Link to="signup">
-            <Button>Don't get Started</Button>
+          <Link to="/signup">
+            <Button>Get Started</Button>
           </Link>
-          <HeroButton>Please don't</HeroButton>
+          <HeroButton>Learn More</HeroButton>
         </ButtonWrapper>
       </Container>
     </HeroSection>
